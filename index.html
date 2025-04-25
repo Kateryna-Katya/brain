@@ -4,9 +4,17 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/brain/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <title>Explode Puzzle</title>
     <script type="module" crossorigin src="/brain/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/brain/assets/styles-Bj86_6dt.css">
+    <link rel="stylesheet" crossorigin href="/brain/assets/styles-r2lD6pcX.css">
   </head>
   <body>
     <header class="header">
@@ -21,7 +29,62 @@
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <!-- Hero -->
+ <section class="hero-section">
+    <div class="container">
+       <h1 class="hero-title">Spezza i Limiti del <span class="hero-span">Tuo Pensiero!</span></h1> 
+       <p class="hero-text">Una piattaforma interattiva per sviluppare logica, pensiero critico e creatività.</p>
+       <button type="button" class="hero-button">
+        <a class="button-link" href="#">Inizia ora</a>
+       </button>
+    </div>
+ </section>
+ <!-- Explode Puzzle -->
+  <article class="puzzle-section">
+   <div class="container">
+      <h2 class="puzzle-title">Cos'è <span class="puzzle-span">Explode Puzzle?</span></h2>
+      <p class="puzzle-text">Explode Puzzle è un ecosistema educativo interattivo che trasforma il modo in cui alleniamo la mente. Attraverso puzzle,
+      giochi logici e sfide cognitive, stimola diverse aree del cervello, migliorando le capacità di analisi e problem
+      solving. È progettato per studenti, professionisti e appassionati di enigmi che vogliono pensare in modo più critico e
+      creativo. Ogni sfida offre un'opportunità di apprendimento concreta, mantenendo alto il livello di coinvolgimento. La
+      piattaforma è aggiornata settimanalmente con nuovi contenuti per garantire stimoli continui.
+   </p>
+   <ul class="puzzle-list">
+      <li class="puzzle-item">
+         <div class="puzzle-wrapper">
+         <img class="puzzle-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAxCAYAAACcXioiAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATJSURBVHgB7Vndcds4EF5S1M3lTR2cUsG5A1MVnEtQKohdwdkVxK4gcgVxKiBdQZwKwnSgPCVjm0S+hQAGpAAQoKjkxd+MRiSx+NnFYv9A9IIXHIQkhvixoPM0of/xuBgg3cwEXSQr2vKLKGhRJ/QBj/lAv60QdDNf0SUFIg0lfC5ojcW/o+HFM9ZNSm/1S7Prlwf0WyQQ0FMRRCsRzECyk3wwIMm8fSZaUgQw1/tQ2iAGWPqxizgQS1bXEMJBBqC/y1jpTwE+a3x2huiyIYJn6HPSlf4dfts+HWhOsEsnFADQPoD2wdLECz7Tz+ocXfnG8jLA0q+70t9kOb2x0db3oBNhDICDu+zUvrDnkgpSBx7n6Px7QbevVlS5hvKqUNNTnSfhl8YUEN05FvOdBXPC6QeU9L8Yn1rpw8xdQ0f/69Dvtt/U2RL0K34wpaqwTXpq2Ai61fa/Tw+mVmgryQLnDtQ9U6alrw71W7ZK5o/C/IPGot+fDQXUhcchOMGOmvqMiJUBNpvUldhG62FzRIs0V2PDg1fYoY3RlLucm/UQN7AQ89ToUNNn/pNqRZK5Y2GNXbhiYaW84zODiZq+2jpYGfhrZTVxR5W+htqFN8lux6sh+g4DSsK5i1h4pJ/0JhPGIVVt/falY6g1TPKDaOibrXEGP6SDRDX2L9QlvRcjVASH7HJ2Gmdi2W/AulxSJDDXNea6aN/1g8Vshg4YvXiNsUzAIr7WRqVVoZH6zfH7EnZ7L3oEYw9g7EZOWNAl3v/p06CvHIPiTDCfE55P+hi5A9JsRoSwgfA5soOhnZv0A38i2jwUKrmizBfrc9QIwuv+94Y9qdj/fghmid14IMQ4t0W5/I1zhoylLywd5eKxTUm+HzozYLFOxHRObZOc0q2tAcblI85nYWOCc4bMIf2qRjzyCEl/7yUVf3MgBjvMnrJOpmHAiLMWP3oHGu8yNsIOfbCsdeHKB5bg7pMtUIKjK/G3Yk+JXdhMsAtmnPVu7hhPODrzGrcUhzawSifID8wod4QwqgyH5CodSBr6UFarlLtwj8Ms2jSwxVAooRruXuUHRLlwotIPQBU+heaz7QI9SUYsRkYBFfzMa6nm2IWLyM6T+o6x0t/9KYz0ltYKhRw4IJQwsKY4tOlta4XYVI3YxjNXA1SsxJ9kAIs/pQlDCbO40FpKmcYl03rXI2Fjllk6fiBtwFnqyMY4+R4R+o7BzOMgfzR0b753GFCZzq2rM85JThNHlRY4wwobrJ6YyxuZ4bZRXqx427joBDXL6Ygww4pnw7SzX7Hl6taySrar0xT6p8sdbPd75Y6p0QkrzDWkKf1r62BlQDmo0vi01kWn9IjlRU9YUWYOtXJW5no1Sp3GaWvFLrwyfxQXU237/dkCuopnT8JeUJbrIQ/6VQpf+GBJ0J0ppa8Q4KvJ2uCtTit12RoTHz31jK2Ie+8HdLRpSDaHNPm2cV9dREQwiOgV4ywtLVz0bb0775SOVl0YvKGBc7vBlvJ9lc6UzuxrCoeKfIcYrh6bYX8weEfGzq35DRcb+xND+qvh2mjQLSUcyHUSUGidEFUW6I2D74kbjylzLUI/QJdLikFyhJt66YV3A4fY+3JmJEl8jgI9+BZznGcRsdAL/jR+AiXK8zlrDxYQAAAAAElFTkSuQmCC" alt="Brain">
+         <h3 class="puzzle-subtitle">Allenamento logico</h3>
+      </div>
+         <h4 class="puzzle-motivate-title">Esercita la tua mente con logica e intuizione.</h4>
+         <p class="puzzle-item-text">Ogni attività logica è pensata per attivare il pensiero sequenziale e deduttivo. Gli utenti affrontano puzzle numerici,
+         visuali e verbali che richiedono attenzione e ragionamento strutturato. Questo tipo di esercizi aiuta a migliorare
+         l'attenzione ai dettagli e la gestione del tempo. L'allenamento logico costante potenzia le capacità decisionali nella
+         vita quotidiana. Ideale per chi desidera rafforzare le proprie abilità analitiche.</p>
+      </li>
+         <li class="puzzle-item">
+            <div class="puzzle-wrapper">
+            <img class="puzzle-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAxCAYAAACcXioiAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATJSURBVHgB7Vndcds4EF5S1M3lTR2cUsG5A1MVnEtQKohdwdkVxK4gcgVxKiBdQZwKwnSgPCVjm0S+hQAGpAAQoKjkxd+MRiSx+NnFYv9A9IIXHIQkhvixoPM0of/xuBgg3cwEXSQr2vKLKGhRJ/QBj/lAv60QdDNf0SUFIg0lfC5ojcW/o+HFM9ZNSm/1S7Prlwf0WyQQ0FMRRCsRzECyk3wwIMm8fSZaUgQw1/tQ2iAGWPqxizgQS1bXEMJBBqC/y1jpTwE+a3x2huiyIYJn6HPSlf4dfts+HWhOsEsnFADQPoD2wdLECz7Tz+ocXfnG8jLA0q+70t9kOb2x0db3oBNhDICDu+zUvrDnkgpSBx7n6Px7QbevVlS5hvKqUNNTnSfhl8YUEN05FvOdBXPC6QeU9L8Yn1rpw8xdQ0f/69Dvtt/U2RL0K34wpaqwTXpq2Ai61fa/Tw+mVmgryQLnDtQ9U6alrw71W7ZK5o/C/IPGot+fDQXUhcchOMGOmvqMiJUBNpvUldhG62FzRIs0V2PDg1fYoY3RlLucm/UQN7AQ89ToUNNn/pNqRZK5Y2GNXbhiYaW84zODiZq+2jpYGfhrZTVxR5W+htqFN8lux6sh+g4DSsK5i1h4pJ/0JhPGIVVt/falY6g1TPKDaOibrXEGP6SDRDX2L9QlvRcjVASH7HJ2Gmdi2W/AulxSJDDXNea6aN/1g8Vshg4YvXiNsUzAIr7WRqVVoZH6zfH7EnZ7L3oEYw9g7EZOWNAl3v/p06CvHIPiTDCfE55P+hi5A9JsRoSwgfA5soOhnZv0A38i2jwUKrmizBfrc9QIwuv+94Y9qdj/fghmid14IMQ4t0W5/I1zhoylLywd5eKxTUm+HzozYLFOxHRObZOc0q2tAcblI85nYWOCc4bMIf2qRjzyCEl/7yUVf3MgBjvMnrJOpmHAiLMWP3oHGu8yNsIOfbCsdeHKB5bg7pMtUIKjK/G3Yk+JXdhMsAtmnPVu7hhPODrzGrcUhzawSifID8wod4QwqgyH5CodSBr6UFarlLtwj8Ms2jSwxVAooRruXuUHRLlwotIPQBU+heaz7QI9SUYsRkYBFfzMa6nm2IWLyM6T+o6x0t/9KYz0ltYKhRw4IJQwsKY4tOlta4XYVI3YxjNXA1SsxJ9kAIs/pQlDCbO40FpKmcYl03rXI2Fjllk6fiBtwFnqyMY4+R4R+o7BzOMgfzR0b753GFCZzq2rM85JThNHlRY4wwobrJ6YyxuZ4bZRXqx427joBDXL6Ygww4pnw7SzX7Hl6taySrar0xT6p8sdbPd75Y6p0QkrzDWkKf1r62BlQDmo0vi01kWn9IjlRU9YUWYOtXJW5no1Sp3GaWvFLrwyfxQXU237/dkCuopnT8JeUJbrIQ/6VQpf+GBJ0J0ppa8Q4KvJ2uCtTit12RoTHz31jK2Ie+8HdLRpSDaHNPm2cV9dREQwiOgV4ywtLVz0bb0775SOVl0YvKGBc7vBlvJ9lc6UzuxrCoeKfIcYrh6bYX8weEfGzq35DRcb+xND+qvh2mjQLSUcyHUSUGidEFUW6I2D74kbjylzLUI/QJdLikFyhJt66YV3A4fY+3JmJEl8jgI9+BZznGcRsdAL/jR+AiXK8zlrDxYQAAAAAElFTkSuQmCC" alt="Brain">
+            <h3 class="puzzle-subtitle">Espansione creativa</h3>
+         </div>
+            <h4 class="puzzle-motivate-title">Stimola idee fuori dagli schemi e pensiero laterale.</h4>
+            <p class="puzzle-item-text">Le sfide creative spingono l’utente a trovare soluzioni non convenzionali. Vengono proposte situazioni ambigue con più
+            interpretazioni corrette. L’obiettivo non è solo risolvere, ma farlo in modo originale e personale. Questo approccio
+            potenzia l'immaginazione e la flessibilità mentale. Utile sia per designer, innovatori, che educatori.</p>
+         </li>
+            <li class="puzzle-item">
+               <div class="puzzle-wrapper">
+               <img class="puzzle-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAxCAYAAACcXioiAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATJSURBVHgB7Vndcds4EF5S1M3lTR2cUsG5A1MVnEtQKohdwdkVxK4gcgVxKiBdQZwKwnSgPCVjm0S+hQAGpAAQoKjkxd+MRiSx+NnFYv9A9IIXHIQkhvixoPM0of/xuBgg3cwEXSQr2vKLKGhRJ/QBj/lAv60QdDNf0SUFIg0lfC5ojcW/o+HFM9ZNSm/1S7Prlwf0WyQQ0FMRRCsRzECyk3wwIMm8fSZaUgQw1/tQ2iAGWPqxizgQS1bXEMJBBqC/y1jpTwE+a3x2huiyIYJn6HPSlf4dfts+HWhOsEsnFADQPoD2wdLECz7Tz+ocXfnG8jLA0q+70t9kOb2x0db3oBNhDICDu+zUvrDnkgpSBx7n6Px7QbevVlS5hvKqUNNTnSfhl8YUEN05FvOdBXPC6QeU9L8Yn1rpw8xdQ0f/69Dvtt/U2RL0K34wpaqwTXpq2Ai61fa/Tw+mVmgryQLnDtQ9U6alrw71W7ZK5o/C/IPGot+fDQXUhcchOMGOmvqMiJUBNpvUldhG62FzRIs0V2PDg1fYoY3RlLucm/UQN7AQ89ToUNNn/pNqRZK5Y2GNXbhiYaW84zODiZq+2jpYGfhrZTVxR5W+htqFN8lux6sh+g4DSsK5i1h4pJ/0JhPGIVVt/falY6g1TPKDaOibrXEGP6SDRDX2L9QlvRcjVASH7HJ2Gmdi2W/AulxSJDDXNea6aN/1g8Vshg4YvXiNsUzAIr7WRqVVoZH6zfH7EnZ7L3oEYw9g7EZOWNAl3v/p06CvHIPiTDCfE55P+hi5A9JsRoSwgfA5soOhnZv0A38i2jwUKrmizBfrc9QIwuv+94Y9qdj/fghmid14IMQ4t0W5/I1zhoylLywd5eKxTUm+HzozYLFOxHRObZOc0q2tAcblI85nYWOCc4bMIf2qRjzyCEl/7yUVf3MgBjvMnrJOpmHAiLMWP3oHGu8yNsIOfbCsdeHKB5bg7pMtUIKjK/G3Yk+JXdhMsAtmnPVu7hhPODrzGrcUhzawSifID8wod4QwqgyH5CodSBr6UFarlLtwj8Ms2jSwxVAooRruXuUHRLlwotIPQBU+heaz7QI9SUYsRkYBFfzMa6nm2IWLyM6T+o6x0t/9KYz0ltYKhRw4IJQwsKY4tOlta4XYVI3YxjNXA1SsxJ9kAIs/pQlDCbO40FpKmcYl03rXI2Fjllk6fiBtwFnqyMY4+R4R+o7BzOMgfzR0b753GFCZzq2rM85JThNHlRY4wwobrJ6YyxuZ4bZRXqx427joBDXL6Ygww4pnw7SzX7Hl6taySrar0xT6p8sdbPd75Y6p0QkrzDWkKf1r62BlQDmo0vi01kWn9IjlRU9YUWYOtXJW5no1Sp3GaWvFLrwyfxQXU237/dkCuopnT8JeUJbrIQ/6VQpf+GBJ0J0ppa8Q4KvJ2uCtTit12RoTHz31jK2Ie+8HdLRpSDaHNPm2cV9dREQwiOgV4ywtLVz0bb0775SOVl0YvKGBc7vBlvJ9lc6UzuxrCoeKfIcYrh6bYX8weEfGzq35DRcb+xND+qvh2mjQLSUcyHUSUGidEFUW6I2D74kbjylzLUI/QJdLikFyhJt66YV3A4fY+3JmJEl8jgI9+BZznGcRsdAL/jR+AiXK8zlrDxYQAAAAAElFTkSuQmCC" alt="Brain">
+               <h3 class="puzzle-subtitle">Gioco intelligente</h3>
+            </div>
+               <h4 class="puzzle-motivate-title">Divertimento e crescita cognitiva in un'unica esperienza.</h4>
+               <p class="puzzle-item-text">La componente ludica è essenziale per mantenere alta la motivazione. Ogni livello è pensato come un mini-gioco con sfide
+               a tempo, punteggi e ricompense. Il sistema di gamification favorisce l’apprendimento attraverso il gioco. Il giocatore
+               non solo si diverte, ma migliora le proprie capacità cognitive. La piattaforma si adatta dinamicamente al livello
+               dell’utente.</p>
+            </li>
+   </ul>
+   </div>
+  </article>
        </main>
 
     <footer class="footer">
