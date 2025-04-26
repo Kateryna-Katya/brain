@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/brain/favicon.png" />
@@ -14,23 +14,72 @@
         rel="stylesheet">
     <title>Explode Puzzle</title>
     <script type="module" crossorigin src="/brain/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/brain/assets/styles-r2lD6pcX.css">
+    <link rel="modulepreload" crossorigin href="/brain/assets/vendor-Cl1sraJX.js">
+    <link rel="stylesheet" crossorigin href="/brain/assets/vendor-BMD19QWe.css">
+    <link rel="stylesheet" crossorigin href="/brain/assets/styles-9SwP9u27.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-
+    <header class="header" data-color="#091018">
+  <div class="container header-container">
+    <nav class="nav ">
+      <svg class="header-svg" width="34" height="30">
+        <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-brain"></use>
+      </svg>
+      <button type="button" class="menu-button" aria-label="button for open menu">
+        <svg class="header-svg" width="44" height="44">
+          <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-burger"></use>
+        </svg>
+      </button>
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="links" href="#Home">Home</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Puzzle">Cos'è Explode Puzzle?</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Formati">Formati dei rompicapo</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Esperienze">Esperienze reali</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Chi">Chi siamo</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Domande">Domande frequenti</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Contatti">Contatti</a>
+        </li>
+       
       </ul>
     </nav>
   </div>
 </header>
-
+<!-- Mobile menu -->
+<div class="backdrop" id="backdrop">
+<div id="modalWindow" class="modal">
+   <ul class="menu-list">
+    <li class="menu-item"><a class="menu-list-item" href="#Home">Home</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="#Puzzle">Cos'è Explode Puzzle?</a></li>
+    <li class="menu-item">
+      <a class="menu-list-item" href="#Formati">Formati dei rompicapo</a>
+    </li>
+    <li class="menu-item"><a class="menu-list-item" href="#Esperienze">Esperienze reali</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="#Chi">Chi siamo</a></li>
+    <li class="menu-item">
+      <a class="menu-list-item" href="#Domande">Domande frequenti</a>
+    </li>
+    <li class="menu-item"><a class="menu-list-item" href="#Contatti">Contatti</a></li>
+   </ul>
+</div>
+</div>
 
     <main>
       <!-- Loads the specified .html file -->
       <!-- Hero -->
- <section class="hero-section">
+ <section class="hero-section" id="Home">
     <div class="container">
        <h1 class="hero-title">Spezza i Limiti del <span class="hero-span">Tuo Pensiero!</span></h1> 
        <p class="hero-text">Una piattaforma interattiva per sviluppare logica, pensiero critico e creatività.</p>
@@ -40,7 +89,7 @@
     </div>
  </section>
  <!-- Explode Puzzle -->
-  <article class="puzzle-section">
+  <article class="puzzle-section" id="Puzzle">
    <div class="container">
       <h2 class="puzzle-title">Cos'è <span class="puzzle-span">Explode Puzzle?</span></h2>
       <p class="puzzle-text">Explode Puzzle è un ecosistema educativo interattivo che trasforma il modo in cui alleniamo la mente. Attraverso puzzle,
@@ -85,14 +134,636 @@
    </ul>
    </div>
   </article>
+  <!-- Formati dei Rompicapo -->
+   <section class="formati-section" id="Formati">
+      <div class="container formati-container">
+         <h2 class="formati-title">Formati dei <span class="formati-span">Rompicapo</span> </h2>
+            <ul class="faq-acc">
+               <li class="faq-acc-el faq-current">
+                  <h3 class="faq-acc-el-title">
+                     <button type="button" class="faq-acc-el-trigger">
+                        Missioni di fuga
+         
+                        <span class="faq-acc-arr arr-down">
+                        <svg class="faq-img " style="width: 24px; height: 24px;">
+                           <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                        </svg>
+                        </span>
+                     </button>
+                  </h3>
+         
+                  <p class="faq-acc-el-descr-frame">
+                  Le missioni di fuga sono avventure interattive a tempo dove bisogna risolvere una serie di enigmi logici per “uscire” da
+                  una situazione simulata. Ogni scenario è unico e offre un’atmosfera coinvolgente (una biblioteca misteriosa, un
+                  laboratorio futuristico, un'antica piramide, ecc.). L'utente deve combinare indizi, analizzare tracce e prendere
+                  decisioni in tempo reale. Questo tipo di gioco allena il pensiero critico e la capacità di lavorare sotto pressione.
+                  Ideale per allenare la mente in modo dinamico e immersivo.
+                  </p>
+               </li>
+               <li class="faq-acc-el faq-current">
+                  <h3 class="faq-acc-el-title">
+                     <button type="button" class="faq-acc-el-trigger">
+                        Blocchi logici
+               
+                        <span class="faq-acc-arr arr-down">
+                           <svg class="faq-img " style="width: 24px; height: 24px;">
+                              <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                           </svg>
+                        </span>
+                     </button>
+                  </h3>
+               
+                  <p class="faq-acc-el-descr-frame">
+                     Le missioni di fuga sono avventure interattive a tempo dove bisogna risolvere una serie di enigmi logici per “uscire” da
+                     una situazione simulata. Ogni scenario è unico e offre un’atmosfera coinvolgente (una biblioteca misteriosa, un
+                     laboratorio futuristico, un'antica piramide, ecc.). L'utente deve combinare indizi, analizzare tracce e prendere
+                     decisioni in tempo reale. Questo tipo di gioco allena il pensiero critico e la capacità di lavorare sotto pressione.
+                     Ideale per allenare la mente in modo dinamico e immersivo.
+                  </p>
+               </li>
+               <li class="faq-acc-el faq-current">
+                  <h3 class="faq-acc-el-title">
+                     <button type="button" class="faq-acc-el-trigger">
+                        Sfide creative
+               
+                        <span class="faq-acc-arr arr-down">
+                           <svg class="faq-img " style="width: 24px; height: 24px;">
+                              <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                           </svg>
+                        </span>
+                     </button>
+                  </h3>
+               
+                  <p class="faq-acc-el-descr-frame">
+                     Le missioni di fuga sono avventure interattive a tempo dove bisogna risolvere una serie di enigmi logici per “uscire” da
+                     una situazione simulata. Ogni scenario è unico e offre un’atmosfera coinvolgente (una biblioteca misteriosa, un
+                     laboratorio futuristico, un'antica piramide, ecc.). L'utente deve combinare indizi, analizzare tracce e prendere
+                     decisioni in tempo reale. Questo tipo di gioco allena il pensiero critico e la capacità di lavorare sotto pressione.
+                     Ideale per allenare la mente in modo dinamico e immersivo.
+                  </p>
+               </li>
+               <li class="faq-acc-el faq-current">
+                  <h3 class="faq-acc-el-title">
+                     <button type="button" class="faq-acc-el-trigger">
+                        Illusioni matematiche
+               
+                        <span class="faq-acc-arr arr-down">
+                           <svg class="faq-img " style="width: 24px; height: 24px;">
+                              <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                           </svg>
+                        </span>
+                     </button>
+                  </h3>
+               
+                  <p class="faq-acc-el-descr-frame">
+                     Le missioni di fuga sono avventure interattive a tempo dove bisogna risolvere una serie di enigmi logici per “uscire” da
+                     una situazione simulata. Ogni scenario è unico e offre un’atmosfera coinvolgente (una biblioteca misteriosa, un
+                     laboratorio futuristico, un'antica piramide, ecc.). L'utente deve combinare indizi, analizzare tracce e prendere
+                     decisioni in tempo reale. Questo tipo di gioco allena il pensiero critico e la capacità di lavorare sotto pressione.
+                     Ideale per allenare la mente in modo dinamico e immersivo.
+                  </p>
+               </li>
+               <li class="faq-acc-el faq-current">
+                  <h3 class="faq-acc-el-title">
+                     <button type="button" class="faq-acc-el-trigger">
+                        Laboratori di idee
+               
+                        <span class="faq-acc-arr arr-down">
+                           <svg class="faq-img " style="width: 24px; height: 24px;">
+                              <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                           </svg>
+                        </span>
+                     </button>
+                  </h3>
+               
+                  <p class="faq-acc-el-descr-frame">
+                  Le missioni di fuga sono avventure interattive a tempo dove bisogna risolvere una serie di enigmi logici per “uscire” da
+                  una situazione simulata. Ogni scenario è unico e offre un’atmosfera coinvolgente (una biblioteca misteriosa, un
+                  laboratorio futuristico, un'antica piramide, ecc.). L'utente deve combinare indizi, analizzare tracce e prendere
+                  decisioni in tempo reale. Questo tipo di gioco allena il pensiero critico e la capacità di lavorare sotto pressione.
+                  Ideale per allenare la mente in modo dinamico e immersivo.
+                  </p>
+               </li>
+            </ul>
+            <picture class="picture">
+               <source srcset="/brain/assets/img-desk-Cdr3oyx_.png 1x, /brain/assets/img-desk@2x-D3jB6ONA.png 2x" media="(min-width: 1439px)" />
+               <source srcset="/brain/assets/img-mob-k0Di0Gk4.png 1x, /brain/assets/img-mob@2x-CDOVhxw0.png 2x" media="(max-width: 1438px)" />
+               <img class="formati-img" src="/img/formati/img-mob.png " alt="Box" loading="lazy" />
+            </picture>
+      </div>
+   </section>
+   <!-- Esperienze Reali -->
+    <section class="esperienze-section" id="Esperienze">
+      <div class="container esperienze-container">
+         <h2 class="esperienze-title">Esperienze <span class="esperienze-span">Reali</span> </h2>
+         <div class="esperienze-swiper-container">
+               <div class="swiper esperienze-swiper">
+            <ul class="swiper-wrapper esperienze-swiper-wrapper">
+               <li class="swiper-slide esperienze-swiper-slide">
+                  <p class="author-text">Marco L.</p>
+                  <p class="swiper-text">"Ho scoperto Explode Puzzle grazie a un collega, e da quel giorno è diventato il mio rituale quotidiano. Ogni rompicapo
+                  è stimolante, mai banale, e mi costringe a pensare in modi sempre nuovi. È come una palestra mentale, ma molto più
+                  divertente. Mi piace come il sito riesca a unire logica e creatività in un’unica esperienza. Alcuni esercizi sembrano
+                  quasi giochi, ma in realtà allenano davvero la mente. Anche graficamente è rilassante e moderno. Consigliato a chiunque
+                  voglia tenere il cervello in forma senza annoiarsi."</p>
+               </li>
+               <li class="swiper-slide esperienze-swiper-slide">
+                  <p class="author-text">Chiara R.</p>
+                  <p class="swiper-text">"Utilizziamo Explode Puzzle in famiglia la sera, prima di cena, ed è diventato un momento di condivisione bellissimo.
+                  Mio figlio adora le sfide visive, mentre io e mio marito ci lanciamo in quelle logiche. È incredibile come riesca a
+                  coinvolgere tutte le età. Abbiamo notato che nostro figlio è più attento e riflessivo anche a scuola. Anche mia madre,
+                  che ha 67 anni, lo usa ogni tanto e si diverte moltissimo. È uno strumento che unisce apprendimento e divertimento. Non
+                  pensavo che un sito potesse avere un impatto così positivo sul nostro tempo insieme."</p>
+               </li>
+               <li class="swiper-slide esperienze-swiper-slide">
+                  <p class="author-text">Davide P.</p>
+                  <p class="swiper-text">"Sono un freelance e uso Explode Puzzle durante le pause tra un progetto e l’altro. Mi aiuta a ricaricare la mente e
+                  ritrovare la concentrazione. Le sfide a tempo sono le mie preferite: brevi ma intense. Trovo che le mie capacità di
+                  ragionamento siano migliorate visibilmente. Anche la memoria e la capacità di trovare soluzioni alternative sono
+                  aumentate. La piattaforma è intuitiva e ben fatta, mi piace anche la possibilità di monitorare i progressi. Non è solo
+                  un passatempo: è un vero strumento di crescita."</p>
+               </li>
+               <li class="swiper-slide esperienze-swiper-slide">
+                  <p class="author-text">Giulia C.</p>
+                  <p class="swiper-text">"Come insegnante, ho iniziato a usare Explode Puzzle in classe una volta alla settimana. Gli studenti lo adorano, anche
+                  i più timidi partecipano con entusiasmo. Ho notato miglioramenti nella logica e nella capacità di collaborazione tra
+                  loro. Alcuni di loro hanno persino iniziato a usarlo a casa con i genitori. È uno strumento didattico straordinario,
+                  semplice ma estremamente efficace. Inoltre, il fatto che sia accessibile anche da smartphone è un grande vantaggio. La
+                  didattica può davvero essere divertente, se supportata da strumenti come questo."
+</p>
+               </li>
+               <li class="swiper-slide esperienze-swiper-slide">
+                  <p class="author-text">Lorenzo M.</p>
+                  <p class="swiper-text">"All’inizio pensavo fosse il solito sito di rompicapo, ma mi sono dovuto ricredere. Ogni sezione è ben studiata e offre
+                  sfide sempre nuove e stimolanti. Il sistema di progressi e statistiche personali è davvero motivante. Sento di pensare
+                  più velocemente e con più flessibilità, anche nel mio lavoro da sviluppatore. Uso Explode Puzzle anche come esercizio
+                  mattutino per 'risvegliare' il cervello. È diventata una sana abitudine. Lo consiglio a tutti quelli che vogliono
+                  migliorare se stessi in modo intelligente e divertente."</p>
+               </li>
+               <li class="swiper-slide esperienze-swiper-slide">
+                  <p class="author-text">Martina V.</p>
+                  <p class="swiper-text">"Le sfide creative sono ciò che preferisco. Mi aiutano a vedere le cose da una prospettiva diversa, stimolando anche la
+                  mia parte più artistica. Come graphic designer, mi sono accorta di avere più idee e più velocità nell'affrontare i brief
+                  dopo aver risolto alcuni esercizi. Anche le sfide logiche hanno il loro fascino: sono come piccoli rebus mentali.
+                  L’interfaccia è pulita, piacevole e funziona benissimo anche da telefono. Mi piace molto la community e l'idea che
+                  dietro ci sia un progetto pensato davvero bene. È più di un gioco: è un modo per scoprire nuove potenzialità di sé."</p>
+               </li>
+               <li class="swiper-slide esperienze-swiper-slide">
+                  <p class="author-text">Federico Z.</p>
+                  <p class="swiper-text">"Explode Puzzle è diventato parte della mia routine mattutina. Appena sveglio, risolvo un paio di sfide per attivare la
+                  mente prima di iniziare a lavorare. Ho notato che sono più lucido e reattivo durante il giorno. Le sfide sono varie, mai
+                  ripetitive, e davvero ben progettate. Amo la sensazione di superare i miei limiti e vedere i progressi settimanali. Il
+                  sito è ben ottimizzato e mi piace che venga aggiornato spesso. È una di quelle rare piattaforme che mantengono le
+                  promesse: divertente, utile e stimolante."</p>
+               </li>
+               <li class="swiper-slide esperienze-swiper-slide">
+                  <p class="author-text">Elisa F.</p>
+                  <p class="swiper-text">"Sono sempre stata appassionata di enigmi, ma Explode Puzzle ha portato la mia passione a un livello superiore. Non solo
+                  mi diverto, ma sento anche che sto imparando qualcosa ogni giorno. Ogni puzzle ha una logica sottile che mi spinge a
+                  riflettere a fondo. Uso spesso la piattaforma con le mie amiche nei momenti di relax e ci sfidiamo tra noi. Le
+                  classifiche sono un’ottima motivazione in più. Mi piace anche che ci siano contenuti nuovi ogni settimana. È una
+                  piattaforma che unisce il gioco con lo sviluppo personale."</p>
+               </li>
+            </ul>
+         </div>
+            <div class="custom-navigation esperienze-nav">
+               <button class="custom-arrow custom-prev" aria-label="Previous slide">
+                  <svg class="esperianze-img" style="width: 24px; height: 24px;">
+                     <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                  </svg>
+               </button>
+            
+               <button class="custom-arrow custom-next" aria-label="Next slide">
+                  <svg class="esperianze-img" style="width: 24px; height: 24px;">
+                     <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                  </svg>
+               </button>
+            </div>
+         </div>
+      <source srcset="/brain/assets/esperienze-DaTixo9Q.png 1x, /brain/assets/esperienze@2x-BA6WdFom.png 2x" />
+      <img class="esperienze-img" src="/brain/assets/esperienze-DaTixo9Q.png" alt="Puzzle" loading="lazy" />
+      </div>
+    </section>
+    <!-- Chi Siamo -->
+     <section class="siamo-section" id="Chi">
+      <div class="container">
+         <h2 class="siamo-title">Chi <span class="siamo-span">Siamo</span></h2>
+         <p class="siamo-text">Siamo un team internazionale di educatori, sviluppatori e designer appassionati di apprendimento esperienziale. Il
+         nostro obiettivo è rendere l'allenamento mentale accessibile, divertente ed efficace. Ogni sfida sulla piattaforma è il
+         risultato di studio, test e amore per l’innovazione didattica. Lavoriamo in collaborazione con psicologi cognitivi e
+         game designer per costruire esperienze che stimolano davvero il cervello. La nostra filosofia è semplice: imparare non
+         deve essere noioso. Per questo, ogni giorno costruiamo un ponte tra il gioco e l’evoluzione personale.</p>
+         <picture class="picture">
+            <source srcset="/brain/assets/siamo-desk-WH1rtPsj.png 1x, /brain/assets/siamo-desk@2x-B6CcVOWP.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/brain/assets/siamo-mob-DJg27y_c.png 1x, /brain/assets/siamo-mob@2x-hWGsOoKo.png 2x" media="(max-width: 1438px)" />
+            <img class="siamo-img" src="/brain/assets/siamo-mob-DJg27y_c.png" alt="Puzzle" loading="lazy" />
+         </picture>
+      </div>
+     </section>
+     <!-- Domande Frequenti -->
+      <section class="frequenti-section" id="Domande">
+         <div class="container">
+            <h2 class="frequenti-title"><span class="frequenti-span">Domande </span>Frequenti</h2>
+            <ul class="faq-acc">
+               <li class="faq-acc-el faq-current">
+                  <h3 class="faq-acc-el-title">
+                     <button type="button" class="faq-acc-el-trigger frequenti-triger">
+                     Cos'è Explode Puzzle e a chi si rivolge?
+            
+                        <span class="faq-acc-arr arr-down">
+                           <svg class="faq-img " style="width: 24px; height: 24px;">
+                              <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                           </svg>
+                        </span>
+                     </button>
+                  </h3>
+            
+                  <p class="faq-acc-el-descr-frame text-frame">
+                  Explode Puzzle è una piattaforma online progettata per stimolare il pensiero logico, la creatività e la capacità di
+                  risolvere problemi attraverso una vasta gamma di enigmi e sfide mentali. È pensato per persone di tutte le età che
+                  vogliono allenare la mente in modo divertente e coinvolgente. Che tu sia uno studente, un professionista, un genitore o
+                  semplicemente curioso, troverai esercizi adatti al tuo livello. L’obiettivo è offrire un ambiente in cui l’apprendimento
+                  sia piacevole e motivante. La varietà dei contenuti consente a ciascuno di scegliere il proprio percorso. Il design
+                  semplice rende l’esperienza accessibile anche ai meno esperti. È perfetto anche per chi cerca una pausa intelligente
+                  durante la giornata.
+                  </p>
+               </li>
+               <li class="faq-acc-el faq-current">
+                  <h3 class="faq-acc-el-title">
+                     <button type="button" class="faq-acc-el-trigger frequenti-triger">
+                        È necessario registrarsi per utilizzare il sito?
+               
+                        <span class="faq-acc-arr arr-down">
+                           <svg class="faq-img " style="width: 24px; height: 24px;">
+                              <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                           </svg>
+                        </span>
+                     </button>
+                  </h3>
+               
+                  <p class="faq-acc-el-descr-frame text-frame">
+                     Explode Puzzle è una piattaforma online progettata per stimolare il pensiero logico, la creatività e la capacità
+                     di
+                     risolvere problemi attraverso una vasta gamma di enigmi e sfide mentali. È pensato per persone di tutte le età che
+                     vogliono allenare la mente in modo divertente e coinvolgente. Che tu sia uno studente, un professionista, un
+                     genitore o
+                     semplicemente curioso, troverai esercizi adatti al tuo livello. L’obiettivo è offrire un ambiente in cui
+                     l’apprendimento
+                     sia piacevole e motivante. La varietà dei contenuti consente a ciascuno di scegliere il proprio percorso. Il
+                     design
+                     semplice rende l’esperienza accessibile anche ai meno esperti. È perfetto anche per chi cerca una pausa
+                     intelligente
+                     durante la giornata.
+                  </p>
+               </li>
+               <li class="faq-acc-el faq-current">
+                        <h3 class="faq-acc-el-title">
+                           <button type="button" class="faq-acc-el-trigger frequenti-triger">
+                              Quanto costa usare Explode Puzzle?
+                     
+                              <span class="faq-acc-arr arr-down">
+                                 <svg class="faq-img " style="width: 24px; height: 24px;">
+                                    <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                                 </svg>
+                              </span>
+                           </button>
+                        </h3>
+                     
+                        <p class="faq-acc-el-descr-frame text-frame">
+                           Explode Puzzle è una piattaforma online progettata per stimolare il pensiero logico, la creatività e la capacità
+                           di
+                           risolvere problemi attraverso una vasta gamma di enigmi e sfide mentali. È pensato per persone di tutte le età che
+                           vogliono allenare la mente in modo divertente e coinvolgente. Che tu sia uno studente, un professionista, un
+                           genitore o
+                           semplicemente curioso, troverai esercizi adatti al tuo livello. L’obiettivo è offrire un ambiente in cui
+                           l’apprendimento
+                           sia piacevole e motivante. La varietà dei contenuti consente a ciascuno di scegliere il proprio percorso. Il
+                           design
+                           semplice rende l’esperienza accessibile anche ai meno esperti. È perfetto anche per chi cerca una pausa
+                           intelligente
+                           durante la giornata.
+                        </p>
+               </li>
+               <li class="faq-acc-el faq-current">
+                  <h3 class="faq-acc-el-title">
+                     <button type="button" class="faq-acc-el-trigger frequenti-triger">
+                        Che tipo di rompicapo posso trovare sulla piattaforma?
+               
+                        <span class="faq-acc-arr arr-down">
+                           <svg class="faq-img " style="width: 24px; height: 24px;">
+                              <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                           </svg>
+                        </span>
+                     </button>
+                  </h3>
+               
+                  <p class="faq-acc-el-descr-frame text-frame">
+                     Explode Puzzle è una piattaforma online progettata per stimolare il pensiero logico, la creatività e la capacità
+                     di
+                     risolvere problemi attraverso una vasta gamma di enigmi e sfide mentali. È pensato per persone di tutte le età che
+                     vogliono allenare la mente in modo divertente e coinvolgente. Che tu sia uno studente, un professionista, un
+                     genitore o
+                     semplicemente curioso, troverai esercizi adatti al tuo livello. L’obiettivo è offrire un ambiente in cui
+                     l’apprendimento
+                     sia piacevole e motivante. La varietà dei contenuti consente a ciascuno di scegliere il proprio percorso. Il
+                     design
+                     semplice rende l’esperienza accessibile anche ai meno esperti. È perfetto anche per chi cerca una pausa
+                     intelligente
+                     durante la giornata.
+                  </p>
+               </li>
+               <li class="faq-acc-el faq-current">
+                  <h3 class="faq-acc-el-title">
+                     <button type="button" class="faq-acc-el-trigger frequenti-triger">
+                        Posso usare Explode Puzzle da smartphone o tablet?
+               
+                        <span class="faq-acc-arr arr-down">
+                           <svg class="faq-img " style="width: 24px; height: 24px;">
+                              <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                           </svg>
+                        </span>
+                     </button>
+                  </h3>
+               
+                  <p class="faq-acc-el-descr-frame text-frame">
+                     Explode Puzzle è una piattaforma online progettata per stimolare il pensiero logico, la creatività e la capacità
+                     di
+                     risolvere problemi attraverso una vasta gamma di enigmi e sfide mentali. È pensato per persone di tutte le età che
+                     vogliono allenare la mente in modo divertente e coinvolgente. Che tu sia uno studente, un professionista, un
+                     genitore o
+                     semplicemente curioso, troverai esercizi adatti al tuo livello. L’obiettivo è offrire un ambiente in cui
+                     l’apprendimento
+                     sia piacevole e motivante. La varietà dei contenuti consente a ciascuno di scegliere il proprio percorso. Il
+                     design
+                     semplice rende l’esperienza accessibile anche ai meno esperti. È perfetto anche per chi cerca una pausa
+                     intelligente
+                     durante la giornata.
+                  </p>
+               </li>
+               <li class="faq-acc-el faq-current">
+                   <h3 class="faq-acc-el-title">
+                           <button type="button" class="faq-acc-el-trigger frequenti-triger">
+                           I contenuti vengono aggiornati regolarmente?
+                              <span class="faq-acc-arr arr-down">
+                                 <svg class="faq-img " style="width: 24px; height: 24px;">
+                                    <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                                 </svg>
+                              </span>
+                           </button>
+                        </h3>
+                     
+                        <p class="faq-acc-el-descr-frame text-frame">
+                           Explode Puzzle è una piattaforma online progettata per stimolare il pensiero logico, la creatività e la capacità
+                           di
+                           risolvere problemi attraverso una vasta gamma di enigmi e sfide mentali. È pensato per persone di tutte le età che
+                           vogliono allenare la mente in modo divertente e coinvolgente. Che tu sia uno studente, un professionista, un
+                           genitore o
+                           semplicemente curioso, troverai esercizi adatti al tuo livello. L’obiettivo è offrire un ambiente in cui
+                           l’apprendimento
+                           sia piacevole e motivante. La varietà dei contenuti consente a ciascuno di scegliere il proprio percorso. Il
+                           design
+                           semplice rende l’esperienza accessibile anche ai meno esperti. È perfetto anche per chi cerca una pausa
+                           intelligente
+                           durante la giornata.
+                        </p>
+                </li>
+               <li class="faq-acc-el faq-current">
+                     <h3 class="faq-acc-el-title">
+                        <button type="button" class="faq-acc-el-trigger frequenti-triger">
+                           Esistono livelli di difficoltà?
+                           <span class="faq-acc-arr arr-down">
+                              <svg class="faq-img " style="width: 24px; height: 24px;">
+                                 <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                              </svg>
+                           </span>
+                        </button>
+                     </h3>
+                  
+                     <p class="faq-acc-el-descr-frame text-frame">
+                        Explode Puzzle è una piattaforma online progettata per stimolare il pensiero logico, la creatività e la capacità
+                        di
+                        risolvere problemi attraverso una vasta gamma di enigmi e sfide mentali. È pensato per persone di tutte le età che
+                        vogliono allenare la mente in modo divertente e coinvolgente. Che tu sia uno studente, un professionista, un
+                        genitore o
+                        semplicemente curioso, troverai esercizi adatti al tuo livello. L’obiettivo è offrire un ambiente in cui
+                        l’apprendimento
+                        sia piacevole e motivante. La varietà dei contenuti consente a ciascuno di scegliere il proprio percorso. Il
+                        design
+                        semplice rende l’esperienza accessibile anche ai meno esperti. È perfetto anche per chi cerca una pausa
+                        intelligente
+                        durante la giornata.
+                     </p>
+               </li>
+               <li class="faq-acc-el faq-current">
+                  <h3 class="faq-acc-el-title">
+                     <button type="button" class="faq-acc-el-trigger frequenti-triger">
+                        Explode Puzzle è adatto anche ai bambini?
+                        <span class="faq-acc-arr arr-down">
+                           <svg class="faq-img " style="width: 24px; height: 24px;">
+                              <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                           </svg>
+                        </span>
+                     </button>
+                  </h3>
+               
+                  <p class="faq-acc-el-descr-frame text-frame">
+                     Explode Puzzle è una piattaforma online progettata per stimolare il pensiero logico, la creatività e la capacità
+                     di
+                     risolvere problemi attraverso una vasta gamma di enigmi e sfide mentali. È pensato per persone di tutte le età che
+                     vogliono allenare la mente in modo divertente e coinvolgente. Che tu sia uno studente, un professionista, un
+                     genitore o
+                     semplicemente curioso, troverai esercizi adatti al tuo livello. L’obiettivo è offrire un ambiente in cui
+                     l’apprendimento
+                     sia piacevole e motivante. La varietà dei contenuti consente a ciascuno di scegliere il proprio percorso. Il
+                     design
+                     semplice rende l’esperienza accessibile anche ai meno esperti. È perfetto anche per chi cerca una pausa
+                     intelligente
+                     durante la giornata.
+                  </p>
+               </li>
+            <li class="faq-acc-el faq-current">
+                     <h3 class="faq-acc-el-title">
+                        <button type="button" class="faq-acc-el-trigger frequenti-triger">
+                           È possibile usare Explode Puzzle in ambito scolastico?
+                           <span class="faq-acc-arr arr-down">
+                              <svg class="faq-img " style="width: 24px; height: 24px;">
+                                 <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                              </svg>
+                           </span>
+                        </button>
+                     </h3>
+                  
+                     <p class="faq-acc-el-descr-frame text-frame">
+                        Explode Puzzle è una piattaforma online progettata per stimolare il pensiero logico, la creatività e la capacità
+                        di
+                        risolvere problemi attraverso una vasta gamma di enigmi e sfide mentali. È pensato per persone di tutte le età che
+                        vogliono allenare la mente in modo divertente e coinvolgente. Che tu sia uno studente, un professionista, un
+                        genitore o
+                        semplicemente curioso, troverai esercizi adatti al tuo livello. L’obiettivo è offrire un ambiente in cui
+                        l’apprendimento
+                        sia piacevole e motivante. La varietà dei contenuti consente a ciascuno di scegliere il proprio percorso. Il
+                        design
+                        semplice rende l’esperienza accessibile anche ai meno esperti. È perfetto anche per chi cerca una pausa
+                        intelligente
+                        durante la giornata.
+                     </p>
+             </li>
+            <li class="faq-acc-el faq-current">
+               <h3 class="faq-acc-el-title">
+                  <button type="button" class="faq-acc-el-trigger frequenti-triger">
+                     È richiesta una connessione internet per giocare?
+                     <span class="faq-acc-arr arr-down">
+                        <svg class="faq-img " style="width: 24px; height: 24px;">
+                           <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                        </svg>
+                     </span>
+                  </button>
+               </h3>
+            
+               <p class="faq-acc-el-descr-frame text-frame">
+                  Explode Puzzle è una piattaforma online progettata per stimolare il pensiero logico, la creatività e la capacità
+                  di
+                  risolvere problemi attraverso una vasta gamma di enigmi e sfide mentali. È pensato per persone di tutte le età che
+                  vogliono allenare la mente in modo divertente e coinvolgente. Che tu sia uno studente, un professionista, un
+                  genitore o
+                  semplicemente curioso, troverai esercizi adatti al tuo livello. L’obiettivo è offrire un ambiente in cui
+                  l’apprendimento
+                  sia piacevole e motivante. La varietà dei contenuti consente a ciascuno di scegliere il proprio percorso. Il
+                  design
+                  semplice rende l’esperienza accessibile anche ai meno esperti. È perfetto anche per chi cerca una pausa
+                  intelligente
+                  durante la giornata.
+               </p>
+            </li>
+               <li class="faq-acc-el faq-current">
+                  <h3 class="faq-acc-el-title">
+                     <button type="button" class="faq-acc-el-trigger frequenti-triger">
+                        È disponibile in più lingue?
+                        <span class="faq-acc-arr arr-down">
+                           <svg class="faq-img " style="width: 24px; height: 24px;">
+                              <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                           </svg>
+                        </span>
+                     </button>
+                  </h3>
+               
+                  <p class="faq-acc-el-descr-frame text-frame">
+                     Explode Puzzle è una piattaforma online progettata per stimolare il pensiero logico, la creatività e la capacità
+                     di
+                     risolvere problemi attraverso una vasta gamma di enigmi e sfide mentali. È pensato per persone di tutte le età che
+                     vogliono allenare la mente in modo divertente e coinvolgente. Che tu sia uno studente, un professionista, un
+                     genitore o
+                     semplicemente curioso, troverai esercizi adatti al tuo livello. L’obiettivo è offrire un ambiente in cui
+                     l’apprendimento
+                     sia piacevole e motivante. La varietà dei contenuti consente a ciascuno di scegliere il proprio percorso. Il
+                     design
+                     semplice rende l’esperienza accessibile anche ai meno esperti. È perfetto anche per chi cerca una pausa
+                     intelligente
+                     durante la giornata.
+                  </p>
+               </li>
+               <li class="faq-acc-el faq-current">
+                        <h3 class="faq-acc-el-title">
+                           <button type="button" class="faq-acc-el-trigger frequenti-triger">
+                           Come posso contattare il supporto?
+                              <span class="faq-acc-arr arr-down">
+                                 <svg class="faq-img " style="width: 24px; height: 24px;">
+                                    <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                                 </svg>
+                              </span>
+                           </button>
+                        </h3>
+                     
+                        <p class="faq-acc-el-descr-frame text-frame">
+                           Explode Puzzle è una piattaforma online progettata per stimolare il pensiero logico, la creatività e la capacità
+                           di
+                           risolvere problemi attraverso una vasta gamma di enigmi e sfide mentali. È pensato per persone di tutte le età che
+                           vogliono allenare la mente in modo divertente e coinvolgente. Che tu sia uno studente, un professionista, un
+                           genitore o
+                           semplicemente curioso, troverai esercizi adatti al tuo livello. L’obiettivo è offrire un ambiente in cui
+                           l’apprendimento
+                           sia piacevole e motivante. La varietà dei contenuti consente a ciascuno di scegliere il proprio percorso. Il
+                           design
+                           semplice rende l’esperienza accessibile anche ai meno esperti. È perfetto anche per chi cerca una pausa
+                           intelligente
+                           durante la giornata.
+                        </p>
+               </li>
+               <li class="faq-acc-el faq-current">
+                  <h3 class="faq-acc-el-title">
+                     <button type="button" class="faq-acc-el-trigger frequenti-triger">
+                     Come posso contribuire o collaborare con Explode Puzzle?
+                        <span class="faq-acc-arr arr-down">
+                           <svg class="faq-img " style="width: 24px; height: 24px;">
+                              <use href="/brain/assets/sprite-CZtrI1uA.svg#icon-arrow"></use>
+                           </svg>
+                        </span>
+                     </button>
+                  </h3>
+               
+                  <p class="faq-acc-el-descr-frame text-frame">
+                     Explode Puzzle è una piattaforma online progettata per stimolare il pensiero logico, la creatività e la capacità
+                     di
+                     risolvere problemi attraverso una vasta gamma di enigmi e sfide mentali. È pensato per persone di tutte le età che
+                     vogliono allenare la mente in modo divertente e coinvolgente. Che tu sia uno studente, un professionista, un
+                     genitore o
+                     semplicemente curioso, troverai esercizi adatti al tuo livello. L’obiettivo è offrire un ambiente in cui
+                     l’apprendimento
+                     sia piacevole e motivante. La varietà dei contenuti consente a ciascuno di scegliere il proprio percorso. Il
+                     design
+                     semplice rende l’esperienza accessibile anche ai meno esperti. È perfetto anche per chi cerca una pausa
+                     intelligente
+                     durante la giornata.
+                  </p>
+               </li>
+         </div>
+      </section>
+      <!-- Contatti -->
+       <section class="contatti-section" id="Contatti">
+         <div class="container">
+            <h2 class="contatti-title">Contatti</h2>
+            <p class="contatti-text">Hai una domanda o hai bisogno di assistenza?</p>
+            <p class="email-text"><a class="email-link" href="mailto:info@explodepuzzle.com">info@explodepuzzle.com <br/>
+</a>Assistenza globale disponibile 24/7</p>
+<picture class="picture">
+   <source srcset="/brain/assets/contatti-desk-BEDYuDr4.png 1x, /brain/assets/contatti-desk@2x-CKeY-7kn.png 2x" media="(min-width: 1439px)" />
+   <source srcset="/brain/assets/contatti-mob-CVjQUE6Q.png 1x, /brain/assets/contatti-mob@2x-C4jXkcTH.png 2x" media="(max-width: 1438px)" />
+   <img class="contatti-img" src="/brain/assets/contatti-mob-CVjQUE6Q.png" alt="Puzzle" loading="lazy" />
+</picture>
+         </div>
+       </section>
        </main>
 
     <footer class="footer">
-  <div class="container">
+  <div class="container footer-container">
+    <source srcset="data:image/png;base64,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 1x, /brain/assets/purple-brain@2x-BkxyNfgI.png 2x" />
+    <img class="footer-img" src="data:image/png;base64,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" alt="Puzzle" loading="lazy" />
+    <ul class="footer-navigation">
+      <li class="footer-link">
+        <a href="Privacy & Policy.html">Politica sulla Privacy</a>
+      </li>
+      <li class="footer-link">
+        <a href="Terms & Conditions.html">Termini e Condizioni</a>
+      </li>
+      <li class="footer-link">
+        <a href="Cookies Policy.html">Politica sui cookie
+</a>
+      </li>
 
+    </ul>
+
+    <p class="footer-text">©2025 explodepuzzle.com, Tutti i diritti riservati</p>
   </div>
 </footer>
 
+    <div id="cookie-popup" class="cookie-popup">
+    <p class="cookie-class">Utilizziamo i cookie per migliorare la tua esperienza sul nostro sito web. Navigando su questo sito, accetti il nostro
+    utilizzo dei cookie.</p>
+    <div class="cookie-buttons">
+        <button id="accept-cookies" class="btn-accept">Accetta i cookie</button>
+        <button id="decline-cookies" class="btn-decline">Rifiuta i cookie</button>
+    </div>
+</div>
 
   </body>
 </html>
