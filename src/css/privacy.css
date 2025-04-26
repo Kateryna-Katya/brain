@@ -1,0 +1,50 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./footer.css');
+@import url('./container.css');
+.background{
+
+}
+.privacy-title{
+    font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 36px;
+    
+        /* line-height: 43px; */
+        line-height: 1.2;
+        letter-spacing: -0.03em;
+        color: #9e54d7;
+}
+.privacy-text{
+    font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 1.5;
+        color: #3c234f;
+}
+.privacy-subtitle{
+    font-weight: 500;
+        font-size: 22px;
+    
+        /* line-height: 29px; */
+        line-height: 1.3;
+        letter-spacing: -0.02em;
+}
+.privacy-ryles-title{
+    font-weight: 500;
+        font-size: 18px;
+}
+.link-underline{
+    text-decoration: underline;
+}
+.privacy-list{
+font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    /* line-height: 24px; */
+    line-height: 1.5;
+    color: #3c234f;
+}

@@ -6,3 +6,17 @@ font-family: "Inter", sans-serif;
   color: #3c234f;
   background: #ffffff;
 }
+h2{
+  font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    color: #3c234f;
+    margin-bottom: 80px;
+}
+@media only screen and (min-width: 1439px) {
+  h2{
+        font-size: 48px;
+  }
+}

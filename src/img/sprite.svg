@@ -1,0 +1,15 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-arrow" viewBox="0 0 32 32">
+<path fill="none" stroke="#9e54d7" style="stroke: var(--color1, #9e54d7)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="4" stroke-width="2.6667" d="M4 12l12 9.333 12-9.333"></path>
+</symbol>
+<symbol id="icon-brain" viewBox="0 0 36 32">
+<path fill="#9e54d7" style="fill: var(--color1, #9e54d7)" d="M10.148 32c-0.332 0-0.642-0.075-0.931-0.226s-0.515-0.387-0.679-0.709l-4.028-7.241h2.884l2.116 4.046h4.611v-1.76h-3.545l-2.116-4.046h-4.948l-2.914-5.143c-0.076-0.16-0.136-0.313-0.179-0.459s-0.064-0.3-0.064-0.462c0-0.095 0.081-0.402 0.243-0.923l2.914-5.143h4.948l2.116-4.043h3.545v-1.76h-4.611l-2.118 4.046h-2.88l4.028-7.239c0.161-0.323 0.386-0.56 0.676-0.711 0.289-0.151 0.599-0.226 0.931-0.226h5.25c0.533 0 0.976 0.175 1.327 0.526s0.527 0.791 0.527 1.321v8.263h-3.485l-1.763 1.76h5.248v6.24h-4.517l-2.027-4h-4.26l-1.765 1.76h4.957l2.029 4h5.583v10.286c0 0.53-0.176 0.97-0.527 1.319-0.352 0.351-0.793 0.526-1.325 0.526h-5.253zM20.866 32c-0.532 0-0.973-0.175-1.323-0.526-0.352-0.35-0.527-0.791-0.527-1.321v-10.286h5.58l2.029-4h4.955l-1.763-1.758h-4.255l-2.073 4h-4.471v-6.24h5.246l-1.765-1.76h-3.48v-8.263c0-0.53 0.176-0.971 0.527-1.321s0.793-0.526 1.323-0.526h5.25c0.333 0 0.645 0.075 0.935 0.226s0.516 0.387 0.676 0.709l4.028 7.241h-2.882l-2.116-4.046h-4.615v1.76h3.545l2.073 4.046h4.991l2.914 5.143c0.076 0.16 0.136 0.313 0.179 0.459s0.064 0.3 0.064 0.462c0 0.095-0.081 0.402-0.243 0.923l-2.914 5.143h-4.991l-2.073 4.044h-3.545v1.76h4.611l2.119-4.046h2.882l-4.028 7.239c-0.162 0.323-0.388 0.56-0.676 0.711-0.29 0.151-0.602 0.226-0.933 0.226h-5.253z"></path>
+</symbol>
+<symbol id="icon-burger" viewBox="0 0 32 32">
+<path fill="none" stroke="#3c234f" style="stroke: var(--color2, #3c234f)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.4545" d="M24.727 21.818h-17.455"></path>
+<path fill="none" stroke="#3c234f" style="stroke: var(--color2, #3c234f)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.4545" d="M24.727 16h-17.455"></path>
+<path fill="none" stroke="#3c234f" style="stroke: var(--color2, #3c234f)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.4545" d="M24.727 10.182h-17.455"></path>
+</symbol>
+</defs>
+</svg>

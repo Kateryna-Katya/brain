@@ -2,7 +2,7 @@
 .hero-section{
 background-image: url('/img/hero/hero-mob.png');
 background-repeat: no-repeat;
-background-position: top right;
+background-position: top 40px right;
 background-size: cover;
 height: 760px;
 }
@@ -13,6 +13,7 @@ height: 760px;
         letter-spacing: -0.03em;
         width: 330px;
         margin-bottom: 20px;
+        margin-top: 40px;
 }
 .hero-span{
     color: #9e54d7;
@@ -51,7 +52,7 @@ align-items: center;
 .hero-section {
         background-image: url('/img/hero/hero-desk.png');
         background-repeat: no-repeat;
-        background-position: bottom 70px center;
+        background-position: bottom 40px right -80px;
         background-size: cover;
         height: 760px;
     }
@@ -72,10 +73,6 @@ margin-bottom: 124px;
 }
 /* Explode Puzzle */
 .puzzle-title{
-font-weight: 500;
-font-size: 36px;
-line-height: 1.2;
-letter-spacing: -0.03em;
 margin-bottom: 40px;
 width: 250px;
 }
@@ -124,7 +121,6 @@ line-height: 1.5;
 }
 @media only screen and (min-width: 1439px) {
  .puzzle-title {
-    font-size: 48px;
     margin-bottom: 80px;
     width: 458px;
 }  
@@ -154,5 +150,281 @@ width: 270px;
 .puzzle-item-text {
     font-size: 18px;
     width: 280px;
+}
+}
+/* Formati dei Rompicapo */
+.formati-section{
+    background: #f7f7f7;
+}
+.formati-span{
+    color: #9e54d7;
+}
+.faq-acc {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 343px;
+    margin: 0 auto;
+   }
+
+.faq-acc-el {
+    position: relative;
+    transition: margin-bottom 0.3s ease;
+    
+}
+
+.faq-acc-el-trigger {
+   border-radius: 16px;
+    padding: 16px 24px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.05);
+    background: #fff;
+    border: none;
+font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    color: #3c234f;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-acc-arr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: inherit;
+    min-width: 48px;
+}
+
+.faq-img {
+    transition: transform 0.3s ease;
+}
+
+.faq-acc-el.open .faq-acc-arr {
+    transform: rotate(180deg);
+}
+
+.faq-acc-arr.is-hidden {
+    display: none;
+}
+
+.faq-acc-el-descr-frame {
+    max-width: 343px;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    padding: 0 24px 20px;
+    transition: max-height 1s ease, opacity 0.5s ease, padding 0.5s ease;
+}
+
+.faq-acc-el.js-enabled .faq-acc-el-descr-frame {
+    visibility: hidden;
+}
+
+.faq-acc-el.open .faq-acc-el-trigger {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+
+.faq-acc-el.open .faq-acc-el-descr-frame {
+    opacity: 1;
+    background-color: #fff;
+    border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+}
+
+.faq-acc-el.open .faq-acc-el-descr-frame {
+    visibility: visible;
+     padding: 0 24px 20px;
+    opacity: 1;
+    background-color: #fff;
+    border-top: none;
+font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    color: #3c234f;
+}
+
+.formati-img{
+    margin-top: 80px; 
+}
+@media only screen and (min-width: 1439px) {
+.formati-container{
+ position: relative;
+}
+.faq-acc {
+        width: 736px;
+        margin: 0 auto 0 0;
+    }
+.faq-acc-el-descr-frame {
+    max-width: 736px;
+ }
+ .faq-acc-el-trigger {
+padding: 16px 32px;
+font-size: 26px;
+    }
+.faq-acc-el-descr-frame {
+max-width: 736px;
+padding: 0 32px 16px; 
+ }
+.faq-acc-el.open .faq-acc-el-descr-frame {
+    font-size: 18px;
+    padding: 0 32px 16px;
+}
+.formati-img {
+    margin-top:0;
+ top: 216px;
+ right: 10%;
+   position: absolute; 
+}
+}
+/* Esperienze Reali */
+.esperienze-span{
+    color: #9e54d7;
+}
+.custom-navigation{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    width: 128px;
+    margin: 32px 0 0 auto;
+}
+.custom-arrow{
+width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #f7f7f7;
+    margin-bottom: 80px;
+}
+.custom-prev{
+transform: rotate(90deg);
+}
+.custom-next{
+transform: rotate(270deg);
+}
+.author-text{
+ font-weight: 500;
+font-size: 18px;
+line-height: 1.5;
+color: #3c234f;
+margin-bottom: 16px;
+}
+.swiper-text{
+    border-left:2px solid #fcc000 ;
+    padding-left: 10px;
+}
+@media only screen and (min-width: 1439px) {
+.esperienze-swiper-container{
+    width: 720px;
+}
+.esperienze-container{
+    position: relative;
+}
+.esperienze-img{
+    position: absolute;
+    top: 150px;
+    right: 10%;
+}
+.author-text {
+    font-size: 20px;
+
+}
+.swiper-text {
+    border-left: 2px solid #fcc000;
+    padding-left: 10px;
+    font-size: 18px;
+}
+}
+/* Chi Siamo */
+.siamo-span{
+    color: #9e54d7;
+}
+.siamo-text{
+    width: 340px;
+    margin-bottom: 80px;
+}
+@media only screen and (min-width: 1439px) {
+.siamo-text {
+        width: 730px;
+        margin-bottom: 80px;
+        font-size: 18px;
+    }
+.siamo-img{
+    margin-left: 800px;
+    margin-top: -410px;
+}
+}
+/* Domande Frequenti */
+.frequenti-section{
+    background: #f7f7f7;
+}
+.frequenti-span{
+color: #9e54d7;
+}
+.frequenti-triger{
+    font-size: 18px;
+    gap: 14px;
+}
+@media only screen and (min-width: 1439px) {
+    .frequenti-triger {
+            font-size: 20px;
+            gap: 16px;
+        width: 1120px;
+}
+.text-frame{
+min-width: 1120px;
+}
+}
+/* Contatti */
+.contatti-title{
+    color: #9e54d7;
+}
+.contatti-text{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+}
+.email-text{
+    font-weight: 500;
+        font-size: 18px;
+        color: #9e54d7;
+        margin-bottom: 80px;
+}
+.email-link{
+    font-weight: 400;
+        font-size: 16px;
+         line-height: 1.5;
+        color: #3c234f;
+}
+@media only screen and (min-width: 1439px) {
+.contatti-text {
+        font-size: 26px;
+    }
+
+    .email-text {
+        font-size:20px;
+        margin-bottom: 0;
+    }
+.email-link {
+    font-size: 18px;
+}
+.contatti-img{
+    margin-left: 720px;
+    margin-top: -270px;
 }
 }
