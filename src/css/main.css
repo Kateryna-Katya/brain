@@ -23,7 +23,7 @@ height: 760px;
         font-size: 22px;
         line-height: 1.3;
         letter-spacing: -0.02em;
-        margin-bottom: 310px;
+        margin-bottom: 290px;
 }
 .hero-button{
 border-radius: 16px;
@@ -40,7 +40,7 @@ align-items: center;
     transition:background-color 0.3s ease;
 }
 .hero-button:hover{
-    background-color: #ffda63;  
+    background-color: #ffda63;
 }
 .button-link{
         font-weight: 500;
@@ -56,7 +56,7 @@ align-items: center;
         background-size: cover;
         height: 760px;
     }
-    .hero-title {      
+    .hero-title {
         font-size: 64px;
         width: 579px;
         margin-bottom: 40px;
@@ -106,7 +106,7 @@ color: #9e54d7;
 font-weight: 500;
 font-size: 22px;
 line-height: 1.3;
-letter-spacing: -0.02em;    
+letter-spacing: -0.02em;
 }
 .puzzle-motivate-title{
  font-family: "Inter", sans-serif;
@@ -123,7 +123,7 @@ line-height: 1.5;
  .puzzle-title {
     margin-bottom: 80px;
     width: 458px;
-}  
+}
 .puzzle-text{
 font-size: 18px;
 width: 1100px;
@@ -170,7 +170,7 @@ width: 270px;
 .faq-acc-el {
     position: relative;
     transition: margin-bottom 0.3s ease;
-    
+
 }
 
 .faq-acc-el-trigger {
@@ -256,7 +256,7 @@ font-family: "Inter", sans-serif;
 }
 
 .formati-img{
-    margin-top: 80px; 
+    margin-top: 80px;
 }
 @media only screen and (min-width: 1439px) {
 .formati-container{
@@ -275,7 +275,7 @@ font-size: 26px;
     }
 .faq-acc-el-descr-frame {
 max-width: 736px;
-padding: 0 32px 16px; 
+padding: 0 32px 16px;
  }
 .faq-acc-el.open .faq-acc-el-descr-frame {
     font-size: 18px;
@@ -285,7 +285,7 @@ padding: 0 32px 16px;
     margin-top:0;
  top: 216px;
  right: 10%;
-   position: absolute; 
+   position: absolute;
 }
 }
 /* Esperienze Reali */
