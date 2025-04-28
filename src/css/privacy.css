@@ -9,6 +9,9 @@
   flex-direction: column;
   gap: 16px;
 }
+.header-container {
+  padding: 18px 16px;
+}
 
 .privacy-title{
     font-family: "Inter", sans-serif;
@@ -18,6 +21,7 @@
         letter-spacing: -0.03em;
         color: #9e54d7;
         margin-bottom: 0;
+        margin-top: 30px;
 }
 .privacy-text{
     font-family: "Inter", sans-serif;
@@ -49,6 +53,10 @@ font-size: 18px;
     flex-direction: column;
     gap: 16px;
   }
+.header-container {
+  padding: 20px 160px;
+  width: 100%;
+}
   .privacy-title{
     font-size: 48px;
     line-height: 120%;
