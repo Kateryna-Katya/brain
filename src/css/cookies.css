@@ -11,7 +11,7 @@
 }
 .header-container {
   padding: 18px 16px;
-  margin-left: 0;
+  margin-left: 0 auto;
 }
 .cookies-title{
   font-family: "Inter", sans-serif;
