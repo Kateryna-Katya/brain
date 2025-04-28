@@ -4,7 +4,7 @@
 @import url('./header.css');
 @import url('./container.css');
 
-.privacy-container{
+.terms-container{
   display: flex;
   flex-direction: column;
   gap: 16px;
